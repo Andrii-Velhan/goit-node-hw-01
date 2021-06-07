@@ -13,7 +13,7 @@ function getContactById(contactId) {
 	fs.readFile(contactsPath)
 		.then((data) => {
 			const users = JSON.parse(data);
-			const user = users.find((user) => user.id == contactId)
+			const user = users.find((user) => user.id === Number(contactId))
 			console.table(user)
 		})
 		.catch((err) => console.log(err.message))
