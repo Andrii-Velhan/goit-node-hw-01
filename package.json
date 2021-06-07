@@ -12,7 +12,18 @@
     "type": "git",
     "url": "git+https://github.com/Andrii-Velhan/goit-node-hw-01.git"
   },
-  "keywords": [],
+  "keywords": [
+		"node",
+    "nodejs",
+		"listContacts",
+		"getContactById",
+		"removeContact",
+		"addItem",
+		"listItems",
+		"getItemById",
+		"removeItem",
+		"addItem"
+	],
   "author": "Andrii Velhan <velganaa@gmail.com>",
   "license": "ISC",
   "bugs": {
