@@ -1,5 +1,5 @@
-const contacts = require("./contacts");
-const argv = require("yargs").argv;
+const contacts = require("./contacts")
+const argv = require("yargs").argv
 
 function invokeAction({ action, id, name, email, phone }) {
 	switch (action) {
@@ -19,6 +19,4 @@ function invokeAction({ action, id, name, email, phone }) {
 			console.warn("\x1B[31m Unknown action type!");
 	}
 }
-invokeAction(argv);
-
-console.log("hello 1234 from index.js");
+invokeAction(argv)
